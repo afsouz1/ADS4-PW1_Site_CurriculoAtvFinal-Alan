@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Alan Souza</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Elite&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <script src="script.js"></script>
+    <div id="top">
+        <header><small>Curriculum Vitae - 2024</small></header>
+    </div>
+    <br>
+
+    <!--Cabeçalho -->
+    <div class="cabecalho">
+        <div class="tituloCurriculo">
+            <h1>Alan F. Souza </h1>
+            <h4><i class="fas fa-coffee"></i>  Java</h4>
+            <h4><i class="fas fa-cubes"></i>  POO</h4>
+            <h4><i class="fas fa-laptop-code"></i>  FullStack</h4>
+            <H4><i class="fas fa-globe"></i>  Web Development</H4>
+            <H4><i class="fas fa-database"></i>  MySQL / PosgreSQL</H4>
+
+        </div>
+        <div class="linksContato">
+            <a href="https://wa.link/5i53by" target="_blank"><i class="fas fa-mobile-alt"></i>  +55 34 999-143-548</a>
+            <a href="mailto:afsouz.dev@aol.com" target="_blank"><i class="fas fa-envelope"></i>  afsouz.dev@aol.com</a>
+            <a href="https://github.com/afsouz1/" target="_blank"><i class="fab fa-github"></i>  afsouz1</a>
+            <a href="https://www.linkedin.com/in/afsouz/" target="_blank"><i class="fab fa-linkedin"></i>  afsouz</a>
+            <a href="https://t.me/alanlgc" target="_blank"><i class="fab fa-telegram"></i>  @alanlgc</a>
+        </div>
+        <br>
+    </div>
+
+
+    <!--Sumário -->
+    <br>
+    <nav>
+        <div class="sumario">
+            <hr>
+            <h2>Sumário</h2>
+            <ol>
+                <li><a href="#secao1">Introdução</a></li>
+                <li><a href="#secao2">Educação</a></li>
+                <li><a href="#secao3">Idiomas</a></li>
+                <li><a href="#secao4">Cursos Complementares</a></li>
+                <li><a href="#secao5">Experiências Prévias</a></li>
+                <li><a href="#nota">Considerações Finais</a></li>
+            </ol>
+        </div>
+    </nav>
+    
+    <!--Sobre mim -->
+    <div id="secao1" class="introducao">
+        <hr>
+        <h2>1. Introdução</h2>
+        <p>
+            Olá, meu nome é Alan Souza, tenho 30 anos resido em Paracatu/MG. Atualmente, estou 
+            cursando Análise e Desenvolvimento de Sistemas, desde janeiro de 2023, com o 
+            objetivo de realizar uma transição de carreira para o setor de tecnologia, focado em 
+            desenvolvimento de software ou desenvolvimento Web. Busco posição de Desenvolvimento
+            Júnior preferencialmente remoto.
+        </p>
+        <a href="#top"><i class="fas fa-arrow-up"></i> <small>Top</small></a>
+    </div>
+    
+
+    <!--Educação - Descreve as experiências de estudo-->
+    <div id="secao2" class="educacao">
+        <hr>
+        <h2>2. Educação</h2>
+        <dl>
+            <dt><strong><u>IFTM - Instituto Federal do Triângulo Mineiro</u></strong></dt>
+            <dt><i><strong>Análise e Desenvolvimento de Sistemas</strong></i></dt>
+            <dd>Tecnólogo em Análise e Desenvolvimento de Sistemas</dd>
+            <dd>Paracatu/MG - Brazil</dd>
+            <dd>Prev. 2025</dd>
+        </dl>
+        <dl>
+            <dt><strong><u>UNIATENAS - Universidade Atenas</u></strong></dt>
+            <dt><i><strong>Bacharel em Direito</strong></i></dt>
+            <dd>Curso bacharelado em Direito</dd>
+            <dd>Paracatu/MG - Brazil</dd>
+            <dd>2016</dd>
+        </dl>
+        <a href="#top"><i class="fas fa-arrow-up"></i> <small>Top</small></a>
+    </div>
+    
+
+    <!--Idiomas - Cursos de idiomas e experiências na área-->
+    <div id="secao3" class="idiomas">
+        <hr>
+        <h2>3. Idiomas</h2>
+        <dl>
+            <dt><strong><u>ILSC Language School</u></strong></dt>
+            <dt><i><strong>Exchange Program</strong></i></dt>
+            <dd>Intercâmbio da lingua inglesa com duração de 120 horas</dd>
+            <dd>Toronto/ON - Canadá</dd>
+            <dd>2024</dd>
+
+        </dl>
+        <dl>
+            <dt><strong><u>IFTM - Instituto Federal do Triângulo Mineiro</u></strong></dt>
+            <dt><i><strong>Prolif (Proficiência em Língua Inglesa) - 8/10 Escrita e Leitura</strong></i></dt>
+            <dd>Certificado de proficiência</dd>
+            <dd>Paracatu/MG - Brazil</dd>
+            <dd>2023</dd>
+
+        </dl>
+        <dl>
+            <dt><strong><u>Wizard</u></strong></dt>
+            <dt><i><strong>English W4</strong></i></dt>
+            <dd>Curso extensivo de língua inglesa. Nível alcançado: Intermediário</dd>
+            <dd>Paracatu/MG - Brazil</dd>
+            <dd>2022</dd>
+
+        </dl>
+        <dl>
+            <dt><strong><u>IFTM - Instituto Federal do Triângulo Mineiro</u></strong></dt>
+            <dt><i><strong>CENID - Centro de Idiomas - English Advanced II</strong></i></dt>
+            <dd>Curso extensivo técnico de língua inglesa. Nível alcançado: Avançado II</dd>
+            <dd>Paracatu/MG - Brazil</dd>
+            <dd>2018</dd>
+
+        </dl>
+        <a href="#top"><i class="fas fa-arrow-up"></i> <small>Top</small></a>
+
+    </div>
+    
+
+    <!--Cursos complementares - cursos adicionais realizados.-->
+    <div id="secao4" class="cursosComplementares">
+        <hr>
+        <h2>4. Cursos Complementares</h2>
+        <dl>
+            <dt><strong><u>Dart/Flutter</u></strong></dt>
+            <dt><i><strong>Cisco Academy</strong></i></dt>
+            <dt>2024 (cursando)</dt>
+        </dl>
+        <dl>
+            <dt><strong><u>Python Básico</u></strong></dt>
+            <dt><i><strong>Solyd Offensive</strong></i></dt>
+            <dt>2022</dt>
+        </dl> 
+        <dl>
+            <dt><strong><u>Power BI Essencial</u></strong></dt>
+            <dt><i><strong>Ninjas do Excel</strong></i></dt>
+            <dt>2021</dt>
+        </dl>
+        
+        <dl>
+            <dt><strong><u>Linux Unhatched</u></strong></dt>
+            <dt><i><strong>Cisco Academy</strong></i></dt>
+            <dt>2019</dt>
+        </dl>
+        <a href="#top"><i class="fas fa-arrow-up"></i> <small>Top</small></a>   
+    </div>
+
+    <!--Experiências prévias  - Breve descrição.-->
+    <div id="secao5" class="experienciasPrevias">
+        <hr>
+        <h2>5. Experiências Prévias</h2>
+        <dl>
+            <dt><strong><u>Longping High Tech Biotecnologia Ltda.</u></strong></dt>
+            <dt><i><strong>Sr Logistics Analyst</strong></i></dt>
+            <dt>2023 - atual</dt>
+        </dl>
+        <dl>
+            <dt><i><strong>Sr Logistics Technician</strong></i></dt>
+            <dt>2021 - 2023</dt>
+        </dl>
+        <dl>
+            <dt><i><strong>Sr M&E Technician</strong></i></dt>
+            <dt>2019 - 2021</dt>
+        </dl>
+        <dl>
+            <dt><strong><u>Katoen Natie do Brasil Ltda.</u></strong></dt>
+            <dt><i><strong>Jr Administrative Analyst</strong></i></dt>
+            <dt>2018 - 2019</dt>
+        </dl>
+        <dl>
+            <dt><i><strong>Pl Administrative Assistant</strong></i></dt>
+            <dt>2017 - 2019</dt>
+        </dl>
+        <dl>
+            <dt><strong><u>Loghis Logística e Serviços Ltda.</u></strong></dt>
+            <dt><i><strong>Assistente Operacional</strong></i></dt>
+            <dt>2015 - 2017</dt>
+            <dt><i><strong>Auxiliar Administrativo</strong></i></dt>
+            <dt>2014 - 2015</dt>
+            <dt><i><strong>Movimentador de Materiais</strong></i></dt>
+            <dt>2014 - 2014</dt>
+        </dl>
+        <dl>
+            <dt><strong><u>Prefeitura Municipal de Lagoa Grande/MG</u></strong></dt>
+            <dt><i><strong>Estagiário Jurídico (Assessoria Municipal)</strong></i></dt>
+            <dt>2013 - 2014</dt>
+        </dl>
+        <dl>
+            <dt><strong><u>Fênix Videolocadora</u></strong></dt>
+            <dt><i><strong>Menor Aprendiz / Atendente</strong></i></dt>
+            <dt>2009 - 2013</dt>
+        </dl>
+        <a href="#top"><i class="fas fa-arrow-up"></i> <small>Top</small></a>
+    </div>
+
+    <div id="nota" class="consideracoesFinais">
+        <hr>
+
+        <h2>6. Considerações Finais</h2>
+        <p>
+            Sou apaixonado por tecnologia, com mais de 4 anos de experiência em Linux. Tenho sólidos
+            conhecimentos em C, C++, Python e Java, utilizando para Programação Orientada a Objetos, 
+            além de domínio em Excel avançado e bom conhecimento em Power BI. Possuo também experiência básica em PostgreSQL e MySQL Workbench
+            e utilizo o ERP SAP há mais de 9 anos. Minha formação em Análise e Desenvolvimento de Sistemas
+            inclui lógica de programação e metodologia ágil, que aplico em projetos para otimização e 
+            automação de processos.
+        </p>
+        <a href="#top"><i class="fas fa-arrow-up"></i> <small>Top</small></a>   
+    </div>
+
+    <!--Fim do currículo-->
+    <div class="footerImg">
+        <hr>
+        <br>
+        <footer><small><a href="https://maps.app.goo.gl/sRkizXTTNP74v3898"><i class="fas fa-map-marker-alt">  Paracatu/MG - Brazil</i></a></small></footer>
+        <br>
+        <h5><small>Alan F. Souza - Curriculum Vitae - 2024</small></h5>
+        <br>
+    </div>
+    <div class="topEnd">
+        <br>
+        <a href="#top"><i class="fas fa-arrow-up"></i> <small>Top</small></a>
+        <br>
+
+    </div>
+</body>
+</html>

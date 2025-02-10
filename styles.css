@@ -1,0 +1,153 @@
+/* Reset e estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-color: #ECEFF1;
+    color: #212121;
+
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #607D8B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4%;
+
+}
+
+.cabecalho a {
+        color: white;
+        text-decoration: underline;
+}
+
+/* Links de contato */
+.contato a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #0056b3;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contato a:hover {
+    background-color: #003f80;
+}
+
+/* Estilização de links gerais */
+a {
+    color: darkslategray;
+    text-decoration: underline;
+}
+
+
+/* Sumário */
+.sumario {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    background: white;
+    border-radius: 4%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Conteúdo */
+.secao {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Rodapé */
+.rodape {
+    text-align: center;
+    padding: 10px;
+    background-color: #607D8B;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Modo escuro */
+.dark-mode {
+    background-color: #424242;
+    color: #F5F5F5;
+}
+.dark-mode a {
+    color: #F5F5F5; /* Cinza escuro para links */
+}
+
+.dark-mode .cabecalho,
+.dark-mode .rodape {
+    background-color: #212121;
+}
+
+.dark-mode .sumario,
+.dark-mode .secao {
+    background-color: #424242;
+    color: #F5F5F5;
+}
+
+/* Botão flutuante para alternar tema */
+.toggle-theme {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-theme:hover {
+    background-color: #0056b3;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 15px;
+    }
+
+    .sumario, .secao {
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    .contato a {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cabecalho {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .sumario, .secao {
+        width: 95%;
+        padding: 8px;
+    }
+
+    .contato a {
+        font-size: 12px;
+        padding: 6px;
+    }
+}
