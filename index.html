@@ -13,14 +13,32 @@
 
 </head>
 <body>
+
+    
     <script src="script.js"></script>
     <div id="top">
         <header><small>Curriculum Vitae - 2024</small></header>
     </div>
     <br>
+    <!--Menu Principal -->
+    <button class="abrir-menu" onclick="abrirMenu()"><small>☰ Sumário</small></button>
+    
+    <div id="menuLateral" class="menu-lateral">
+        <a href="javascript:void(0)" class="fechar" onclick="fecharMenu()">&times;</a>
+        <a href="#secao1" onclick="fecharMenu()">Introdução</a>
+        <a href="#secao2" onclick="fecharMenu()">Educação</a>
+        <a href="#secao3" onclick="fecharMenu()">Idiomas</a>
+        <a href="#secao4" onclick="fecharMenu()">Cursos Complementares</a>
+        <a href="#secao5" onclick="fecharMenu()">Experiências Prévias</a>
+        <a href="#nota" onclick="fecharMenu()">Considerações Finais</a>
+    </div>
 
+    
+
+ 
     <!--Cabeçalho -->
     <div class="cabecalho">
+        
         <div class="tituloCurriculo">
             <h1>Alan F. Souza </h1>
             <h4><i class="fas fa-coffee"></i>  Java</h4>
@@ -41,22 +59,7 @@
     </div>
 
 
-    <!--Sumário -->
-    <br>
-    <nav>
-        <div class="sumario">
-            <hr>
-            <h2>Sumário</h2>
-            <ol>
-                <li><a href="#secao1">Introdução</a></li>
-                <li><a href="#secao2">Educação</a></li>
-                <li><a href="#secao3">Idiomas</a></li>
-                <li><a href="#secao4">Cursos Complementares</a></li>
-                <li><a href="#secao5">Experiências Prévias</a></li>
-                <li><a href="#nota">Considerações Finais</a></li>
-            </ol>
-        </div>
-    </nav>
+    
     
     <!--Sobre mim -->
     <div id="secao1" class="introducao">

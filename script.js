@@ -9,3 +9,10 @@ document.addEventListener("DOMContentLoaded", function () {
         toggleButton.innerText = document.body.classList.contains("dark-mode") ? "🌙" : "☀️";
     });
 });
+
+function abrirMenu() {
+    document.getElementById("menuLateral").style.width = "250px";
+}
+function fecharMenu() {
+    document.getElementById("menuLateral").style.width = "0";
+}

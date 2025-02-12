@@ -10,14 +10,16 @@ body {
 
 /* Cabeçalho */
 .cabecalho {
-    background-color: #607D8B;
+    background-color: #607d8b;
     color: white;
     padding: 20px;
     text-align: center;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 4%;
+    border-radius: 20px;
+
 
 }
+
 
 .cabecalho a {
         color: white;
@@ -92,7 +94,7 @@ a {
     background-color: #212121;
 }
 
-.dark-mode .sumario,
+
 .dark-mode .secao {
     background-color: #424242;
     color: #F5F5F5;
@@ -103,14 +105,82 @@ a {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #007bff;
+    background-color: #607d8b;
     color: white;
     border: none;
     padding: 10px 15px;
-    border-radius: 50%;
+    border-radius: 20px;
     cursor: pointer;
     font-size: 18px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*Botão flutuante para o menu princiapal*/
+
+.menu-lateral {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.menu-lateral a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.menu-lateral a:hover {
+    color: #f1f1f1;
+}
+.menu-lateral .fechar {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.abrir-menu {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.75);
+    border: none;
+    color: #111;
+    padding: 10px;
+
+
+    position: fixed;
+    top: 20px;
+    left: 0px;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0.1);
+
+}
+
+/*Botão flutuante Subir ao topo*/
+.topEnd {
+    position: fixed;
+    bottom: 20px;
+    left: 0px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
 }
 
 .toggle-theme:hover {
